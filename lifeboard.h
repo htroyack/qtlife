@@ -13,10 +13,11 @@ public:
 protected:
   void paintEvent(QPaintEvent *event) override;
 
-
 private:
-  unsigned char board[50][50];
-  unsigned char previous[50][50];
+  enum {WIDTH = 50, HEIGHT = 50, REFRESH = 100, CELL = 10};
+  unsigned char current[WIDTH][HEIGHT];
+  unsigned char previous[WIDTH][HEIGHT];
+  int countNeighbours(int i, int j);
 };
 
 #endif  // __QTLIFE_BOARD_H

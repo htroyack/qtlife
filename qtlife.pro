@@ -3,6 +3,6 @@ CONFIG += debug
 
 QT += widgets
 
-SOURCES += qtlife.cpp
-HEADERS += qtlife.h
+SOURCES += qtlife.cpp lifeboard.cpp
+HEADERS += lifeboard.h
 
