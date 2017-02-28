@@ -16,6 +16,7 @@ protected:
 
 private:
   unsigned char board[50][50];
+  unsigned char previous[50][50];
 };
 
 #endif  // __QTLIFE_BOARD_H

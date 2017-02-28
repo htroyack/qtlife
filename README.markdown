@@ -13,4 +13,5 @@ Based upon the Qt Beginners tutorials at:
 
 2017.02.28 03h38 - begin
 2017.02.28 05h46 - working grid
+2017.02.28 06h32 - done
 
